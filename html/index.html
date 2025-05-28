@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS CodePipeline + ECR + Nginx Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 AWS CodePipeline 배포 테스트 v2</h1>
+        <div class="info-card">
+            <h2>배포 정보</h2>
+            <p><strong>서비스:</strong> Nginx Web Server</p>
+            <p><strong>컨테이너:</strong> Docker</p>
+            <p><strong>레지스트리:</strong> Amazon ECR</p>
+            <p><strong>파이프라인:</strong> AWS CodePipeline</p>
+        </div>
+        
+        <div class="status">
+            <div class="status-item">
+                <span class="status-label">상태:</span>
+                <span class="status-value success">정상 운영</span>
+            </div>
+            <div class="status-item">
+                <span class="status-label">버전:</span>
+                <span class="status-value">v1.0.0</span>
+            </div>
+        </div>
+
+        <div class="links">
+            <a href="/health" class="btn">헬스체크</a>
+            <a href="https://github.com" class="btn btn-secondary">소스코드</a>
+        </div>
+    </div>
+</body>
+</html>
